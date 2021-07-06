@@ -7,6 +7,19 @@ body {
 span {
     color: rgba(248, 44, 44, 0.938);
 }
+.header{
+    display: flex;
+}
+.top-name{ 
+    margin-top: 1%;
+    margin-left: 5%;
+    display: flex;
+}
+.top-links{
+    display: flex;
+    margin-top: 2%;
+    margin-left: 10%;
+}
 
 .top {
     display: flex;
