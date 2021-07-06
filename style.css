@@ -42,16 +42,12 @@ span {
 }
 
 .order-now-button {
-
-    /* margin-top: 500px; */
     text-decoration: none;
     background-image: linear-gradient(to right, rgba(248, 44, 44, 0.938), rgb(245, 71, 94));
     padding: 10px;
     border-radius: 30px;
     color: white;
     font-size: 20px;
-
-
 }
 
 .middle {
@@ -60,7 +56,7 @@ span {
     background-image: url('images/frame.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: ;
+
 }
 
 .about-writing h1 {
@@ -81,4 +77,41 @@ span {
 
 .about-image {
     margin-left: 5%;
+}
+
+.recipies {
+    margin-top: 6%;
+}
+
+.recipies h1 {
+    text-align: center;
+    font-size: 30px;
+}
+
+.recipies p {
+    text-align: justify;
+    font-size: 25px;
+    color: rgb(90, 87, 87);
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.food {
+    display: flex;
+    margin-left: 3%;
+}
+
+.first-food {
+
+    margin-left: 5%;
+    box-shadow: 5px 5px 20px 2px rgb(185, 185, 185);
+    border: 20px solid white;
+    border-radius: 20px;
+    text-align: center;
+    height: 620px;
+    width: 420px;
+}
+
+#third-food {
+    margin-right: 2%;
 }
