@@ -7,18 +7,35 @@ body {
 span {
     color: rgba(248, 44, 44, 0.938);
 }
-.header{
+
+.header {
     display: flex;
+    background-color: rgb(8, 15, 51);
+    height: 100px;
 }
-.top-name{ 
+
+.top-name {
     margin-top: 1%;
     margin-left: 5%;
     display: flex;
 }
-.top-links{
+
+.top-links {
     display: flex;
     margin-top: 2%;
     margin-left: 10%;
+}
+
+.top-links-button {
+    /* text-decoration: none; */
+    background-image: linear-gradient(to right, rgba(248, 44, 44, 0.938), rgb(247, 96, 116));
+    margin-top: 2%;
+    padding: 10px;
+    border-radius: 20px;
+    color: white;
+    font-size: 20px;
+    margin-bottom: 7%;
+
 }
 
 .top {
@@ -56,11 +73,12 @@ span {
 
 .order-now-button {
     text-decoration: none;
-    background-image: linear-gradient(to right, rgba(248, 44, 44, 0.938), rgb(245, 71, 94));
+    background-image: linear-gradient(to right, rgba(248, 44, 44, 0.938), rgb(247, 96, 116));
     padding: 10px;
     border-radius: 30px;
     color: white;
     font-size: 20px;
+
 }
 
 .middle {
@@ -75,7 +93,7 @@ span {
 .about-writing h1 {
     margin-top: 4%;
     font-size: 35px;
-    padding-left: 30%;
+    padding-left: ;
 }
 
 .about-writing p {
@@ -146,8 +164,34 @@ span {
     margin-right: 12%;
 }
 
+.reviews {
+    display: flex;
+    margin-left: 5%;
+}
+
+.review h3 {
+    margin-left: 2%;
+    text-align: left;
+}
+
+section h1 {
+    text-align: center;
+    font-size: 30px;
+    color: rgb(8, 15, 51);
+    ;
+}
+
+.review p {
+    margin-left: 2%;
+    margin-right: 50%;
+    margin-bottom: 5%;
+}
+
+
+
+
 footer {
-    background-color: black;
+    background-color: rgb(8, 15, 51);
     height: 200px;
     text-align: center;
     padding-top: 1%;
