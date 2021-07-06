@@ -60,14 +60,14 @@ span {
 }
 
 .about-writing h1 {
-    margin-top: 10%;
-    font-size: 30px;
+    margin-top: 4%;
+    font-size: 35px;
     padding-left: 30%;
 }
 
 .about-writing p {
     text-align: justify;
-    font-size: 25px;
+    font-size: 30px;
     color: rgb(90, 87, 87);
     ;
     padding-left: 30%;
@@ -109,9 +109,42 @@ span {
     border-radius: 20px;
     text-align: center;
     height: 620px;
-    width: 420px;
+    width: 410px;
 }
 
 #third-food {
     margin-right: 2%;
+}
+
+.social {
+    display: flex;
+    text-align: center;
+    box-shadow: 5px 5px 20px 2px rgb(185, 185, 185);
+    border: 20px solid white;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.media {
+    margin-top: 1%;
+    margin-left: 12%;
+    margin-right: 12%;
+}
+
+footer {
+    background-color: black;
+    height: 200px;
+    text-align: center;
+    padding-top: 1%;
+}
+
+#footer-network {
+    color: rgb(90, 87, 87);
+    ;
+}
+
+footer p {
+    color: white;
 }
