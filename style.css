@@ -1,0 +1,50 @@
+body {
+    margin: 0%;
+    font-family: 'Poppins', sans-serif;
+    ;
+}
+
+span {
+    color: rgba(248, 44, 44, 0.938);
+}
+
+.top {
+    display: flex;
+    width: 90%;
+    margin-left: 5%;
+    padding-right: 10%;
+}
+
+.top-writing {
+
+    margin-top: 5%;
+    text-align: justify;
+    margin-right: 8%;
+
+}
+
+.top-writing h1 {
+    font-size: 45px;
+
+}
+
+.top-writing p {
+    color: rgb(90, 87, 87);
+    font-size: 35px;
+    margin-bottom: 7%;
+
+}
+
+.top-image {
+    display: flex;
+}
+
+.order-now-button {
+    /* margin-top: 500px; */
+    text-decoration: none;
+    background-image: linear-gradient(to right, rgba(248, 44, 44, 0.938), rgb(245, 71, 94));
+    padding: 10px;
+    border-radius: 30px;
+    color: white;
+    font-size: 20px;
+}
